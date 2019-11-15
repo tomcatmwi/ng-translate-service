@@ -71,7 +71,7 @@ changeLanguage('fr');
 Returns the translation of a single string. The `values` object specifies the dynamic values to replace placeholders. Example:
 
 ```
-translate('login.welcome', { username: 'John Doe' };
+translate('login.welcome', { username: 'John Doe' });
 ```
 
 # `translateBatch(input: Array<any>, values: object | null, nodes: string | Array<string>)`
